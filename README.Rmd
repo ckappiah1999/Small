@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Small
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+To compute the area of regular shapes using a defined functions for 
+each formula 
+
+## Installation
+
+You can install the development version of Small from [GitHub](https://github.com/ckappiah1999/Small) with:
+
+``` r
+# install.packages("pak")
+pak::pak("ckappiah1999/Small")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(Small)
+## basic example code
+
+arearec(3,4) # To find the area of a rectangle
+
+areacir(3) # To find the area of a circle
+```
+
