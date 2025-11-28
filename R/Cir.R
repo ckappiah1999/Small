@@ -6,8 +6,9 @@
 #' @export
 #'
 #' @examples
-#' areacir ("2")
+#' areacir (2)
 areacir <- function(x){
   print(paste("The area of a circle with radius" , x, "cm",
-              "is",round(pi*(x^2), 2), "cm2"))
+              "is",round(pi*(x**2), 2), "cm2"))
 }
+

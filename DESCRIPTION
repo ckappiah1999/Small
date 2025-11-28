@@ -2,20 +2,13 @@ Package: Small
 Type: Package
 Title: To compute the area of regular shapes
 Version: 0.1.0
-Authors@R: c(
-    person(
-      "Charles",
-      email = "ckappiah1999@gmail.com",
-      role = c("Charles Kwame Appiah", "ckappiah1999@gmail.com")
-    )
-  )
-Author: Charles Kwame Appiah
-Maintainer: Appiah <appiahcharleskwame@gmail.com>
+Author: Charles Kwame Appiah [aut,cre]
+Maintainer: Charles Kwame Appiah <appiahcharleskwame@gmail.com>
 Description: To compute the area of regular shapes using a defined functions for each formula
-License: Charles-1
+License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 2.10)
 RoxygenNote: 7.3.3
-Date: 2025-27-11
 URL: https://github.com/ckappiah1999/Small
 BugReports: https://github.com/ckappiah1999/Small/issues
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")

@@ -16,5 +16,5 @@ The output from \code{\link{print}}
 Area of a circle
 }
 \examples{
-areacir ("2")
+areacir (2)
 }

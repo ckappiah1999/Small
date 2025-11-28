@@ -10,7 +10,7 @@
 #' arearec ("5,8")
 arearec <- function(x, y){
   print(paste("The area of a rectangle with length", x,"cm",
-              "and breath", y,"cm", "is", x * y,"cm" ))
+              "and breath", y,"cm", "is", x * y,"cm2" ))
 }
 
 
