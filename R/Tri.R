@@ -7,6 +7,7 @@
 #' @export
 #'
 #' @examples
+#' areatri(2,4)
 
 areatri <- function(x, y){
   print(paste("The area of a triangle with base", x, "cm and height", y, "cm is",

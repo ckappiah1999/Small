@@ -16,10 +16,10 @@ knitr::opts_chunk$set(
 # Small
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-To compute the area of regular shapes using a defined functions for 
-each formula 
+To compute the area of regular shapes using a defined functions for each formula.
 
 ## Installation
 
@@ -36,6 +36,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(Small)
+
 ## basic example code
 
 arearec(3,4) # To find the area of a rectangle
@@ -44,4 +45,3 @@ areacir(3) # To find the area of a circle
 
 areatri(3,6) # To find the area of a triangle
 ```
-

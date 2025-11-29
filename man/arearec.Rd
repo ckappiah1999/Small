@@ -18,5 +18,5 @@ The output from \code{\link{print}}
 Area of rectangle
 }
 \examples{
-arearec ("5,8")
+arearec (5,8)
 }
